@@ -1,0 +1,129 @@
+<html>
+    <head>
+    <title>Prueba Pagina Web</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/09df02b581.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+    
+        <div class="navbar" id="myNavbar">
+            <a href="#" class="active">Inicio</a>
+            <a href="#inicio">Inicio</a>
+            <a href="#somos">Quienes Somos</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#contacto">Contacto</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                &#9776;
+            </a>
+        </div>
+        
+        <div class="banner">
+            <center>
+                <span>
+                <h1> 
+                    EUSEBIO STORE 
+                    <img id="logo"src="logo.jpg.jpg">
+                </h1>
+                
+                </span>
+                
+            </center>
+        
+        </div>
+        
+        <!--Carrusel de fotos-->
+        <section id="inicio">
+        
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img1.jpg.jpg" class="d-block w-100" alt="Imagen 1">
+              </div>
+              <div class="carousel-item">
+                <img src="img2.jpg.jpg" class="d-block w-100" alt="Imagen 2">
+              </div>
+              <div class="carousel-item">
+                <img src="img3.jpg.jpg" class="d-block w-100" alt="Imagen 3">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Siguiente</span>
+            </a>
+          </div>
+          
+        </section>
+        <br>
+        <br>
+        <section id="somos" >
+        <center>
+        
+          <div >
+            <h2 class="titulo">Donde Comienza una Aventura Inspiradora</h2>
+            <br>
+            <canvas class="canvas"id="miCanvas" width="400" height="300"></canvas>
+            <br>
+            <br>
+            <br>
+            <p>Eusebio Store no es solo una tienda en línea; es el fruto de una historia de amor y gratitud hacia nuestro querido perro Eusebio. 
+            Cuando este fiel compañero llegó a nuestras vidas, trajo consigo una alegría inigualable. Eusebio no solo llenó nuestros corazones de amor, sino que también fue la chispa que inspiró la creación de Eusebio Store.</p>
+            <p>La conexión especial que compartimos con Eusebio nos motivó a construir un espacio único que reflejara su espíritu y energía. En Eusebio Store, no solo encontrarás productos de alta calidad, sino también un rincón lleno de afecto y gratitud. Cada artículo que ofrecemos está impregnado con la misma lealtad y cariño que Eusebio nos ha brindado a lo largo de los años.</p>
+            <p>Únete a nosotros en esta aventura, donde cada compra no solo representa un producto excepcional, sino también un tributo a la inspiración canina que dio vida a Eusebio Store. Juntos, celebramos la belleza de la conexión humana y animal, compartiendo el amor que Eusebio nos enseñó desde el primer día.</p>
+            <i class="fa-solid fa-paw"></i>
+
+        </div>
+        </center>
+        </section>
+
+        <br>
+        <br>
+        <br>
+
+        <section id="galeria" >
+          
+          <div class="container">
+            <h2 class="text-center">Lightbox Gallery</h2>
+            <div class="lightbox-gallery">
+                <div><img src="https://picsum.photos/id/343/300/300" data-image-hd="https://picsum.photos/id/343/600/600" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, quae, quam. Ut dolorum quia, unde dicta at harum porro officia obcaecati ipsam deserunt fugit dolore delectus quam, maxime nisi quo."></div>
+                <div><img src="https://picsum.photos/id/112/300/300" data-image-hd="https://picsum.photos/id/112/600/600" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime accusamus officiis dignissimos doloribus consectetur harum eos sapiente optio aut minima."></div>
+                <div><img src="https://picsum.photos/id/155/300/300" data-image-hd="https://picsum.photos/id/155/600/600" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates veritatis similique, amet, maiores soluta recusandae cupiditate, sed perspiciatis fugit minima, sunt dolores cum earum deserunt illo ipsum!"></div>
+                <div><img src="https://picsum.photos/id/11/300/300" data-image-hd="https://picsum.photos/id/11/600/600" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque laudantium dignissimos tenetur eos unde quidem repellat officiis nemo laboriosam necessitatibus deleniti commodi quis aliquid est atque tempora aut, nihil!"></div>
+                <div><img src="https://picsum.photos/id/434/300/300" data-image-hd="https://picsum.photos/id/434/600/600" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto minus consequatur soluta quaerat itaque, laboriosam quis a facilis, cumque, deleniti quas aperiam voluptate dolore. Enim nostrum sit eaque, porro eligendi illo placeat?"></div>
+                <div><img src="https://picsum.photos/id/101/300/300" data-image-hd="https://picsum.photos/id/101/600/600" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi suscipit quam, id aliquam totam aperiam quas rem debitis voluptatem pariatur, illo accusamus facilis eius ipsa! Reprehenderit libero, quas iste repudiandae distinctio, quos dignissimos."></div>
+            </div>
+          </div>
+        
+        
+        
+      
+
+         
+        </section>
+
+      <section id="contacto" >
+      <center>
+      
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63344.926351038!2d-73.17417782019383!3d7.119289349541395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e68157af751c0ed%3A0x75a0e4551148c36c!2sBucaramanga%2C%20Santander%2C%20Colombia!5e0!3m2!1ses-419!2smx!4v1708620192139!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </center>
+    
+      </section>
+
+        <script src="main.js"></script>
+    </body>
+</html>
